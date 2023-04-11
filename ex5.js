@@ -8,11 +8,12 @@
  * 
  */
 
- let futureYear = 2050;
- let birthYear;
+let futureYear = 2050;
+let birthYear = 1996;
+let edad = futureYear - birthYear
 
- let message;
+let message = `En el año ${futureYear} yo voy a tener ${edad} años`;
 
- console.log(message);
- 
+console.log(message);
+
 
